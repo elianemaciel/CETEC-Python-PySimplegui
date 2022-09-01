@@ -1,5 +1,8 @@
 import PySimpleGUI as pg
 
+lista_codigos = []
+lista_nomes = []
+
 layout = [
     [pg.Text("Selecione um arquivo"), pg.FileBrowse(key="arquivo")],
     [pg.Button("Ler arquivo")],
@@ -16,9 +19,10 @@ while True:
         nome_arquivo = valores['arquivo']
         arquivo = open(nome_arquivo, 'r+')
         linhas = arquivo.readlines()
-        print(linhas)
         for linha in linhas:
-            print(linha)
+            aux = linha.split(',')
+            lista_codigos.append(aux[0])
+            lista_nomes.append(aux[1])
 
         
     if eventos == pg.WIN_CLOSED :
