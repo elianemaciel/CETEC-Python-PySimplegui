@@ -1,3 +1,7 @@
+
+<div align="center">
+  <img width="200px" src="Logo_CETEC.png">
+</div>
 # 🖥️ Exemplos PySimpleGUI  
 
 ## 📖 Descrição  
