@@ -1,7 +1,7 @@
 # 🖥️ Exemplos PySimpleGUI  
 
 ## 📖 Descrição  
-Este repositório contém exemplos práticos de uso do **PySimpleGUI**, uma biblioteca Python para criação de interfaces gráficas de forma simples e eficiente. Os exemplos abordam desde conceitos básicos até funcionalidades mais avançadas, ajudando desenvolvedores a construir GUIs de forma intuitiva.  
+Este repositório contém exemplos práticos de uso do **PySimpleGUI**, uma biblioteca Python para criação de interfaces gráficas de forma simples e eficiente. Os exemplos abordam desde conceitos básicos até funcionalidades mais avançadas, ajudando desenvolvedores a construir GUIs de forma intuitiva. Esses exemplos foram usados na disciplina de programação do CETEC.
 
 ---
 
